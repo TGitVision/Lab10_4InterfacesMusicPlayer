@@ -28,9 +28,10 @@ namespace Lab10_4InterfacesMusicPlayer
 
         #region Methods
 
-        public void SelectTrack(string movieName)
+        public void SelectTrack(string trackName)
         {
-            this.trackName = movieName;
+            this.trackName = trackName;
+
         }
 
         // Interface Method Implementation
